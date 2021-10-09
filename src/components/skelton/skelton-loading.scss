@@ -1,0 +1,16 @@
+.continer {
+  display: flex;
+  flex-wrap: wrap;
+  .product-sk-loading {
+    margin: 10px;
+    width: 270px;
+    height: 240px;
+    background: rgb(65, 64, 64);
+    animation: sk-loading 1s infinite alternate;
+    @keyframes sk-loading {
+      to {
+        opacity: 0.5;
+      }
+    }
+  }
+}
